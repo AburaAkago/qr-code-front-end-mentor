@@ -7,18 +7,20 @@
 }
 
 body {
-    max-height: 1440px;
+    /*max-height: 1440px;
+    padding-top: 15%;*/
+    min-height: 100vh;
     background-color: var(--cor-background);
     display: flex;
+    align-items: center;
     justify-content: center;
     font-family: "Outfit", sans-serif;
-    padding-top: 15%;
 }
 
 .card-qrcode {
     background-color: var(--cor-de-fundo-do-card);
-    width: 20rem;
-    height: 27rem;
+    width: 23rem;
+    height: 32rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,8 +30,8 @@ body {
 }
 
 .img-qrcode {
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
     border-radius: 10%;
 }
 
