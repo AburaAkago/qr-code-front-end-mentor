@@ -7,8 +7,6 @@
 }
 
 body {
-    /*max-height: 1440px;
-    padding-top: 15%;*/
     min-height: 100vh;
     background-color: var(--cor-background);
     display: flex;
